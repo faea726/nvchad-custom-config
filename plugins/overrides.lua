@@ -25,7 +25,6 @@ M.mason = {
 
     -- python
     "pyright",
-    "python-lsp-server",
     "autopep8",
 
     -- rust
