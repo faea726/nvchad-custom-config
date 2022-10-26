@@ -28,7 +28,11 @@ M.mason = {
     "autopep8",
 
     -- rust
-    "rust-analyzer"
+    "rust-analyzer",
+
+    -- solidity
+    "solidity",
+    "solhint",
   },
 }
 

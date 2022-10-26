@@ -21,13 +21,15 @@ local sources = {
 
   -- cpp
   b.formatting.clang_format,
-  b.formatting.rustfmt,
 
   -- python
   b.formatting.autopep8,
 
   -- rust
   b.formatting.rustfmt,
+
+  -- solidity
+  b.diagnostics.solhint,
 }
 
 null_ls.setup {
