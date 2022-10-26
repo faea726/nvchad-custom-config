@@ -31,7 +31,7 @@ M.mason = {
     "rust-analyzer",
 
     -- solidity
-    "solidity",
+    "solidity-ls",
     "solhint",
   },
 }
