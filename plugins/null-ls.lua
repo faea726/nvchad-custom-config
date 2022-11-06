@@ -28,6 +28,9 @@ local sources = {
   -- rust
   b.formatting.rustfmt,
 
+  -- go
+  b.formatting.gofumpt,
+
   -- solidity
   b.diagnostics.solhint,
 }

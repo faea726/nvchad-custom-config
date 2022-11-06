@@ -30,6 +30,9 @@ M.mason = {
     -- rust
     "rust-analyzer",
 
+    -- go
+    "gofumpt",
+
     -- solidity
     "solidity-ls",
     "solhint",
