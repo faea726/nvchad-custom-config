@@ -25,7 +25,8 @@ M.mason = {
 
     -- python
     "pyright",
-    "autopep8",
+    "black",
+    "isort",
 
     -- rust
     "rust-analyzer",

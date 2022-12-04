@@ -23,7 +23,13 @@ local sources = {
   b.formatting.clang_format,
 
   -- python
-  b.formatting.autopep8,
+  b.diagnostics.pylint.with {
+    diagnostics_postprocess = function(diagnostic)
+      diagnostic.code = diagnostic.message_id
+    end,
+  },
+  b.formatting.isort,
+  b.formatting.black,
 
   -- rust
   b.formatting.rustfmt,
